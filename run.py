@@ -41,7 +41,6 @@ def Baidu_Record_Query():
     isRecord = searchEngineRecordQuery.baiduRecordQuery.QueryUrl(url)
     return searchEngineRecordQuery.GenerateResultJson(url,isRecord)
 
-
 # Google收录查询接口
 @app.route('/api/GoogleRecordQuery/',methods=['GET'])
 def Google_Record_Query():
